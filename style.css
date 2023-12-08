@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src: url('WorkSans-Italic-VariableFont_wght.ttf');
+       
+}
+@font-face {
+    font-family: 'WorkSans-Bold';
+    font-weight: 700;
+    src: url('WorkSans-Bold.ttf');
+        ;
+}
+@font-face {
+    font-family: 'WorkSans-VariableFont_wght';
+    font-weight: 600;
+    src: url('WorkSans-VariableFont_wght.ttf');
+       
+}
+
+body{
+    margin: 0;
+    padding:0;
+   font-size: 14px;
+    background-color: rgb(244, 232, 247);
+    height: 800px;
+}  
+.image-background{
+  background-image: url('background-pattern-desktop.png');
+  height: 320px;
+  margin: 5px;
+}
+
+
+.container{
+    display: grid;
+    background-color: rgb(243, 241, 241);
+  width: 470px;
+  margin: auto;
+  position: relative;
+    padding: 20px;
+  border-radius: 10px;
+ 
+  box-sizing: border-box;
+  border: 0px solid;
+  box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+}
+.icon-headed{
+    position: relative;
+    margin: 0px;
+     height: 30px;
+
+}
+.skills{
+    display: grid;
+   display: flex;
+   gap: 13px;
+    position: relative;
+    left: 0px;
+    right: 60px;
+    align-items: flex-start;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'WorkSans-Bold';
+    color: rgb(54, 18, 61);
+}
+.container-head{
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.minus{
+    left: 50px;
+    position: relative;
+}
+.container-front{
+    position: relative;
+    right: 15px;
+    left: 5px;
+    display: flex;
+    top: 10px;
+    color: rgba(54, 18, 61, 0.322);
+     font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    
+}
+.container-mentor{
+    position: relative;
+    top: 5px;
+    display: flex;
+    left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.icon-plus{
+    position: absolute;
+    right: 10px;
+    
+}
+hr{
+    position: relative;
+    top: 1px;
+    display: none;
+    border: none;
+    margin: 5px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.007);
+}
+.container-project{
+    position: relative;
+    display: flex;
+    top: 8px;
+    left:5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.png{
+    left: 40px;
+    position: relative;
+    top: 0px;
+    margin: 0;
+}
+.container-challenge{
+    position: relative;
+    right: 5px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.plus{
+    left: 70px;
+    top: 10px;
+    position: relative;
+}
+.container .yes{
+    position: relative;
+    top: -1.5rem;
+}
+@media only screen and (min-width: 375px){
+   body{
+   
+   font-size: 14px;
+    background-color: rgb(244, 232, 247);
+    height: 700px;
+    margin: 0;
+}  
+    .image-background{
+  background-image: url('background-pattern-mobile.png');
+  height: 232px;
+  position: relative;
+  margin: 0;
+ 
+}
+.container{
+    background-color: rgb(243, 241, 241);
+  width: 300px;
+  height: 500px;
+  position: relative;
+   margin-top: -150px;
+  margin-block-end: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+}
+.minus{
+    margin: 20px;
+  left: 5px;
+    position: relative;
+    height: 25px;
+    top: -15px;
+}
+.container-head{
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.container-front{
+    position: relative;
+   margin: 0;
+    left: 5px;
+    display: flex;
+    top: -15px;
+    color: rgba(54, 18, 61, 0.322);
+     font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    
+}
+hr{
+    position: relative;
+  margin: 30px;
+  display: block;
+    border: none;
+    margin: 5px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.png{
+    left: 0px;
+   margin: 10px;
+    position: relative;
+    top: -10px;
+    
+}
+
+.container-challenge{
+    position: relative;
+    right: 400px;
+    display: block;
+    display: grid;
+    top: -15px;
+    grid-template-columns: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+    grid-row-end: auto;
+}
+.plus{
+    
+    left: 220px;
+    margin: 0px;
+    top: -30px;
+    
+}
+.icon-plus{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+}
+
+@media only screen and (min-width: 1024px){
+    .image-background{
+  background-image: url('background-pattern-desktop.png');
+  height: 320px;
+  margin: 0px;
+  
+}
+
+
+.container{
+    display: grid;
+    background-color: rgb(243, 241, 241);
+  width: 470px;
+  height: 380px;
+  margin: auto;
+  position: relative;
+    padding: 20px;
+  border-radius: 10px;
+  margin-top: -150px;
+  box-sizing: border-box;
+  border: 0px solid;
+  box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+}
+.icon-headed{
+    position: relative;
+    right: 15px;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    height: 30px;
+   
+}
+.skills{
+    display: grid;
+   display: flex;
+   gap: 13px;
+    position: relative;
+    left: 0px;
+    right: 60px;
+    align-items: flex-start;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'WorkSans-Bold';
+    color: rgb(54, 18, 61);
+}
+.container-head{
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+hr{
+    display: none;
+}
+.container-front{
+    position: relative;
+    left: 5px;
+    display: flex;
+    top: 5px;
+    margin: 0;
+    color: rgba(54, 18, 61, 0.322);
+     font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    
+}
+.container-mentor{
+    position: relative;
+    top: 10px;
+    display: flex;
+    left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.icon-plus{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+.minus{
+    margin: 0;
+    left: 50px;
+   top: 0;
+    position: relative;
+}
+.png{
+    left: 40px;
+   margin: 0px;
+   top: -10px;
+    position: relative;
+    
+    
+}
+.container-challenge{
+    position: relative;
+    display: block;
+    display: grid;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+    grid-row-end: auto;
+}
+.plus{
+    position: relative;
+    left: 70px;
+    margin: 0;
+    top: -10px;
+    
+}
+}
+@media only screen and (min-width: 1440px){
+    .image-background{
+  background-image: url('background-pattern-desktop.png');
+  height: 320px;
+  margin: 0px;
+}
+
+
+.container{
+    display: grid;
+    background-color: rgb(243, 241, 241);
+  width: 470px;
+  margin: auto;
+  position: relative;
+    padding: 20px;
+  border-radius: 10px;
+  margin-top: -150px;
+  box-sizing: border-box;
+  border: 0px solid;
+  box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+}
+.icon-headed{
+    position: relative;
+    right: 15px;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    height: 30px;
+   
+}
+.skills{
+    display: grid;
+   display: flex;
+   gap: 13px;
+    position: relative;
+    left: 0px;
+    right: 60px;
+    align-items: flex-start;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'WorkSans-Bold';
+    color: rgb(54, 18, 61);
+}
+.container-head{
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+}
+.container-front{
+    position: relative;
+    right: 15px;
+    left: 5px;
+    display: flex;
+    top: 5px;
+    margin: 0;
+    color: rgba(54, 18, 61, 0.322);
+     font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    
+}
+.minus{
+    margin: 0;
+    left: 50px;
+    position: relative;
+}
+.png{
+    left: 40px;
+   margin: 0px;
+    position: relative;
+    top: -15px;
+    
+}
+.container-challenge{
+    position: relative;
+  
+    display: block;
+    display: grid;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+    grid-row-end: auto;
+}
+.plus{
+    
+    left: 70px;
+    margin: 0;
+    top: -10px;
+    
+}
+}
